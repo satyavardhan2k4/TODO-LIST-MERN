@@ -3,13 +3,7 @@ const mongoose =require('mongoose');
 
 
 const app = express();
-const cors=require(cors(
-  {
-    origin:{"https://todo-list-mern-frontend-puce.vercel.app"},
-    methods:{"POST","GET"},
-    credentials:true
-  }
-  ));
+const cors=require('cors')
 
 
 // Your routes and other middleware
